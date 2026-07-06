@@ -10,7 +10,7 @@ chunker = Chunker(
     overlap=20
 )
 
-# Load all documents
+# Load Documents
 chunks = load_documents(
     "data",
     chunker
@@ -18,35 +18,39 @@ chunks = load_documents(
 
 # Build Retriever
 retriever = Retriever()
-
 retriever.build_index(chunks)
 
-# Ask User
-query = input("Ask a question: ")
+# Create Generator
+generator = Generator(
+    api_key="YOUR_GROQ_API_KEY"
+)
 
-
-# Retrieve Relevant Chunks
-results = retriever.search(query)
-
-for rank, chunk in enumerate(results, start=1):
-    print("-" * 40)
-    print(f"Rank   : {rank}")
-    print(f"Score  : {chunk['score']:.4f}")
-    print(f"Source : {chunk['source']}")
-    print(f"Text   : {chunk['text']}")
-
-
-# Threshold Check
 THRESHOLD = 0.30
 
-if not results or results[0]["score"] < THRESHOLD:
-    print("I don't know based on the provided documents.")
+# Chat Loop
+while True:
 
-else:
+    query = input("\nAsk a question (or type 'exit' to quit): ")
 
-    generator = Generator(
-        api_key="YOUR_GROQ_API_KEY"
-    )
+    if query.lower() == "exit":
+        print("Goodbye!")
+        break
+
+    results = retriever.search(query)
+
+    print("\nRetrieved Chunks:\n")
+
+    for rank, chunk in enumerate(results, start=1):
+        print("-" * 40)
+        print(f"Rank   : {rank}")
+        print(f"Score  : {chunk['score']:.4f}")
+        print(f"Source : {chunk['source']}")
+        print(f"Text   : {chunk['text']}")
+
+    if not results or results[0]["score"] < THRESHOLD:
+        print("\nAnswer:\n")
+        print("I don't know based on the provided documents.")
+        continue
 
     response = generator.generate(
         query,
