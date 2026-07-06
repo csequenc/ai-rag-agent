@@ -28,6 +28,13 @@ query = input("Ask a question: ")
 # Retrieve Relevant Chunks
 results = retriever.search(query)
 
+for rank, chunk in enumerate(results, start=1):
+    print("-" * 40)
+    print(f"Rank   : {rank}")
+    print(f"Score  : {chunk['score']:.4f}")
+    print(f"Source : {chunk['source']}")
+    print(f"Text   : {chunk['text']}")
+
 
 # Threshold Check
 THRESHOLD = 0.30
