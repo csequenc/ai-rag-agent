@@ -3,7 +3,7 @@ class Chunker:
         self.chunk_size = chunk_size
         self.overlap = overlap
 
-    def chunk_text(self, text):
+    def chunk_text(self, text, source):
         chunks = []
 
         start = 0
@@ -15,10 +15,20 @@ class Chunker:
             remaining = len(text) - end
 
             if remaining < self.chunk_size / 2:
-                chunks.append(text[start:])
+
+                chunks.append({
+                    
+                    "text": text[start:],
+                    "source": source
+                })
+
                 break
 
-            chunks.append(text[start:end])
+            chunks.append({
+
+                "text": text[start:end],
+                "source": source
+            })
 
             start += self.chunk_size - self.overlap
 
