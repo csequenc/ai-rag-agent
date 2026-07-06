@@ -52,7 +52,7 @@ class Retriever:
     
             if idx == -1:
                 continue
-                chunk = self.chunks[idx]
+            chunk = self.chunks[idx]
             
             results.append({
                 "text": chunk["text"],
