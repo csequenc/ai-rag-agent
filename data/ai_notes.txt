@@ -1,7 +1,696 @@
-Directly underneath AI, we have machine learning, which involves creating models by training an algorithm to make predictions or decisions based on data. It encompasses a broad range of techniques that enable computers to learn from and make inferences based on data without being explicitly programmed for specific tasks.
-
-There are many types of machine learning techniques or algorithms, including linear regression, logistic regression, decision trees, random forest, support vector machines (SVMs), k-nearest neighbor (KNN), clustering and more. Each of these approaches is suited to different kinds of problems and data.
-
-But one of the most popular types of machine learning algorithm is called a neural network (or artificial neural network). Neural networks are modeled after the human brain's structure and function. A neural network consists of interconnected layers of nodes (analogous to neurons) that work together to process and analyze complex data. Neural networks are well suited to tasks that involve identifying complex patterns and relationships in large amounts of data.
-
-The simplest form of machine learning is called supervised learning, which involves the use of labeled data sets to train algorithms to classify data or predict outcomes accurately. In supervised learning, humans pair each training example with an output label. The goal is for the model to learn the mapping between inputs and outputs in the training data, so it can predict the labels of new, unseen data.
+Climate Change “Change is the Law of Nature” Climate Change is a
+reality. It has changed in Past, is changing in Present and will change
+in Future. Atmosphere is always in a state of turmoil and instability
+leading to variation in weather and climatic conditions. Thus the
+variation and shifts in weather conditions over space and time of
+different scales and magnitude resulting into changes of Climatic Type
+is defined as Climate Change. For example, from warm and moist climate
+to warm and dry climate. The rate of climatic changes depends on the
+nature of causal factor. This may be gradually or rapidly, partly or
+drastically, short term or long term, Local, regional, or global scale.
+The Climate change which occurred during Jurassic Period leading to mass
+extinction of Dinosaurs due to sudden onset of Cold Climate was rapid
+and instantaneous. Factors Factors Factors Factors affecting Climate C
+affecting Climate C affecting Climate C affecting Climate Change hange
+hange hange Earth’s temperature is influence by the energy entering and
+leaving the planet’s system. When incoming energy from the sun is
+absorbed by the Earth system, Earth is warmed. When the sun’s energy is
+reflected back into space, Earth cools. Both natural and anthropogenic
+factors can cause changes in Earth’s energy balance. Natural Factors The
+Earth’s climate can be affected by a number of natural factors. The
+prominent ones are continental drift, volcanoes, ocean currents, the
+earth’s tilt, and comets and meteorites. The natural factors affect the
+climate change in a long term and persist for thousand to millions of
+years. Continental drift  The continents, what we are seeing today, were
+not alike before 200 million years. It is formed when the landmass began
+gradually drifting apart millions of years back, due to Plate
+displacement.  This drift also had an impact on the climate because it
+changed the physical features of the landmass, their position and the
+position of water bodies like changed the flow of ocean currents and
+winds, which affected the climate.  The drift process is still continued
+today, the Himalayan range is rising by about 1 mm (millimetre) every
+year because the Indian land mass is moving towards the Asian land mass,
+slowly but steadily. Variation in the earth’s orbit  The seasonal
+distribution of sunlight reaching the Earth’s surface is directly
+related to Earth’s Orbit and a slight variation in Earth’s orbit leads
+to variation in distribution across the globe.  There are very little
+changes to the annually averaged sunshine; but there can be strong
+changes in the geographical and seasonal distribution.  There are three
+types of orbital variations namely variations in Earth’s eccentricity,
+changes in the tilt angle of Earth’s axis of rotation and precession of
+Earth’s axis. Combined together, these produce Milankovitch cycles which
+have large impact on climate and are notable for their correlation to
+glacial and interglacial periods. The IPCC finding shows that
+Milankovitch cycles drove the ice age cycles. Plate tectonics  Due to
+temperature variation in the core of the Earth, the mantle plumes and
+convection currents force the Plates of the Earth to adjust which causes
+the reconfiguration of the earth Plate. This can affect both global and
+local patterns of climate and atmosphere.  The position of the
+continents also influences patterns of ocean circulation as it
+determines the geometry of the oceans. The locations of the seas are
+important in controlling the transfer of heat and moisture across the
+globe, and therefore, in determining global climate.  A recent example
+of tectonic control on ocean circulation is the formation of the Isthmus
+of Panama about 5 million years ago, which shut off direct mixing
+between the Atlantic and pacific oceans. Volcanic activity  When the
+Volcano erupts, the outburst of gases and dust particles partially block
+the incoming rays of the Sun which lead to the cooling of the weather. 
+Sulphur dioxide combines with the water to form tiny droplets of
+Sulphuric acid and these droplets are so small that many of them can
+stay aloft for several years.  Although the volcanic activity may last
+only a few days yet the large volumes of gases and ash can influence the
+climatic pattern over the several years. Ocean currents  Ocean currents
+are the major component of the climatic system which is driven by the
+horizontal wind forces causing the displacement of the water against the
+sea surface. Due to temperature variation of the water, the climate of
+the region is largely influenced.  On longer time scales, alterations to
+ocean processes such as thermohaline circulation play a key role in
+redistributing heat by carrying out a very slow and extremely deep
+movement deep of water, and the long term redistribution of heat in the
+world’s ocean.  Much of the heat that escapes from the oceans is in the
+form of water vapour, the most abundant green house gases on the earth.
+Yet, water vapour also contributes to the formation of the clouds, which
+shade the surfaces and have a net cooling effect. Anthropogenic (Human
+Caused) Factors Anthropogenic or manmade factors result in short term
+climatic changes. It involves the changes in the energy balance of the
+Earth - atmosphere system leading to changes in weather and climate.
+Scientists have been observing a change in the climate since the
+beginning of the 20th Century that cannot be attributed to any of the
+‘natural’ influences of the past. Global warming has occurred faster
+than any other climate change recorded by humans and so is of great
+interest and importance to the human population. Cause of anthropogenic
+(human caused) climate change includes greenhouse gases, aerosols and
+pattern of land use changes. Greenhouse Gases The Earth is endowed with
+a natural greenhouse effect where certain gases (known as greenhouse
+gases) in the atmosphere permit the sunlight to enter but absorb the
+heat radiation. They keep the average surface temperature on Earth
+around 14°C. Without the natural greenhouse effect, the Earth’s average
+surface temperature would be around -19°C. As the human activity has
+increased due to onset of industrial revolution, the emission of huge
+amount of Green House Gases is also increased which led to more
+absorption of heat being retained in the atmosphere thus an increase in
+global Temperature. Green house gases while largely transparent to
+incoming solar radiation, absorbs most of the infrared emitted by the
+earth’s surface. The main greenhouse gases include:  Water vapour: It is
+the most abundant greenhouse gas (GHG), however it spends just a short
+time in the atmosphere. The amount of water vapour varies drastically
+with time, region and altitude. It is not considered the most important
+GHG.  Carbon dioxide (CO2): It is the most important GHG and is produced
+both naturally and through human activities. Naturally CO2 is released
+into the atmosphere through volcanic eruptions and animal respiration.
+It is also released through human activities such as deforestation and
+the burning of fossil fuels for energy. CO2 spends a long time in the
+atmosphere increasing its impact. Since the industrial revolution,
+humans have increased atmospheric CO2 concentration by 30%.
+Deforestation contributes to global warming as fewer plants are
+available to take up carbon dioxide from the atmosphere.  Methane: The
+large sources of Methane come from the decomposition of organic matter
+e.g. in landfills and in agriculture and from the digestion of ruminants
+(cows, goats etc). It is a stronger GHG than CO2 because it can absorb
+more heat. However it is much less abundant in the atmosphere.  Nitrous
+oxide: It is considered as a very powerful greenhouse gas which is
+abundantly produced in the agriculture sector, specifically in the
+production and use of organic fertilizers. It is also produced when
+burning fossil fuels.  Chlorofluorocarbons (CFCs): These man-made
+compounds were produced for industrial use, mainly in refrigerants and
+air conditioners. They are now regulated under the Montreal Protocol due
+to their adverse effect on the Ozone Layer. Country-wise share of
+Greenhouse gases The overall warming from 1850 to the end of the 20th
+century was equivalent to about 2.5 W/m². CO2 contributed around 60 per
+cent of this figure and CH4 about 25 per cent, with N2O and halocarbons
+providing the remainder. This has resulted in Earth’s average
+temperature increasing from 15.5°C to 16.2°C in the last 100 years. The
+warming effect that would result from a doubling of CO2 from
+pre-industrial levels is estimated to be 4 W/m². Atmospheric Aerosols
+Atmospheric aerosols affect climate in two important ways: • they cause
+scattering and absorbing the solar and infrared radiation • they change
+the microphysical and chemical properties of clouds and possibly their
+lifetime and extent The scattering of solar radiation cools the planet,
+while absorption of solar radiation by aerosols act to warm the air
+directly instead of allowing sunlight to be absorbed by the surface of
+the Earth. Aerosols have the ability to influence climate directly by
+absorbing or reflecting incoming solar radiation, but they can also
+produce indirect effects on climate by modifying cloud formation or
+cloud properties. Aerosols can be transported thousands of kilometres
+from the sources of origin by winds and upper level circulation in the
+atmosphere. There are two types of aerosols: 1. Natural Aerosols: These
+forms of aerosols include windblown mineral dust generated in arid and
+semi- arid region. Other natural sources of aerosols include volcanic
+eruptions, which produces sulphate aerosols and biogenic sources
+(e.g. Phytoplankton) which produce dimethyl sulphide. Other important
+biogenic aerosols such as tarpenes are produces naturally by certain
+kinds of trees or other plants. 2. Anthropogenic aerosols: Human
+activity has increased the amount of aerosols in the atmosphere in
+several ways. Ammonia which is often used in Fertilizers or released by
+the burning of plants and other organic materials is the prominent
+source of Nitrate aerosols. The burning of coal and oil produces sulphur
+dioxide which is another major source of sulphate aerosols. Dust is
+often a bi-product of agricultural processes. Biomass burning releases a
+combination of organic droplets and soot particles. Industrial processes
+release a wide variety of aerosols. Exhaust emissions from transport
+generate a rich cocktail of pollutants that are either aerosols from the
+outset, or are converted by chemical reactions in the atmosphere to form
+aerosols. The concentrations of aerosols are about three times higher in
+the Northern Hemisphere than in the Southern Hemisphere. This higher
+concentration is estimated to result in radiation forcing that is about
+50 per cent higher for the Northern Hemisphere. Land use change  Cutting
+down forests to create farmland led to changes in the amount of sunlight
+reflected from the ground back into space (the surface albedo). About
+half of the land use changes are estimated to have occurred during the
+industrial era, much of it due to replacement of forests by agricultural
+cropping and grazing lands over Eurasia and North America.  High
+Latitudes region is largely affected due to deforestation as the albedo
+of snow-covered land, previously forested, has increased. This is
+because snow on trees reflects only about half of the sunlight falling
+on it, whereas snow-covered open ground reflects about two-thirds.
+Overall, the increased albedo over Eurasian and North American
+agricultural regions has had a cooling effect.  Tropical deforestation
+which changes evapotranspiration rates (the amount of water vapour put
+into the atmosphere through evaporation and transpiration from trees),
+desertification, which increases surface albedo, and the general effects
+of agriculture on soil moisture characteristics.  Analysing the surface
+records of changing land use with satellite measurements of the
+properties of vegetation cover show that forest clearing for agriculture
+and irrigated farming in arid and semi-arid lands are two major sources
+of climatically important land cover changes.  The two effects however,
+to cancel out, because irrigated agriculture increases solar energy
+absorption and the amount of moisture evaporated into the atmosphere,
+whereas forest clearing decreases these two processes. Impact Impact
+Impact Impacts s s s of Climate Change of Climate Change of Climate
+Change of Climate Change Rising global temperature is accompanied by the
+changes in weather and climate like changes in rainfall, resulting in
+more floods, droughts, or intense rain, as well as more frequent and
+severe heat waves. The planet’s oceans and glaciers have also
+experienced some big changes - oceans are warming and becoming more
+acidic, ice caps are melting, and sea levels are rising. As these
+changes become more pronounced in the coming decades, they poses a great
+challenge to our society and our environment. Higher Temperatures  Green
+House gases release by power plants, automobiles, deforestation and
+other sources are heating up the planet. In fact, the five hottest years
+on record have all occurred since 1997 and the 10 hottest since 1990,
+including the warmest years on record – 2005 and 2010.  Increased
+temperatures are to blame for an increase in heat-related deaths and
+illness, rising seas, increased storm intensity, and many of the other
+dangerous consequences of climate change.  During the 20th century, the
+Earth’s average temperature has increased by one degree Fahrenheit to
+its highest level in the past four centuries – believed to be the
+fastest rise in a thousand years.  Research found that if emissions of
+heat-trapping carbon emissions aren’t reduced, average surface
+temperatures could increase by 3 to 10 degrees Fahrenheit by the end of
+the century. Changing Landscapes  Increasing temperatures and changing
+patterns of rain and snow have resulted in moving of trees and plants
+around the world toward Polar Regions and up mountain slopes.  These
+vegetation shifts will affect much of the work the conservation
+community has accomplished to date, with the potential to permanently
+change the face of Conservancy preserves, local land trusts, and even
+our national parks.  As plant communities try to adapt the changing
+climate by moving toward cooler areas, the animals that depend on them
+will be forced to move in order to survive.  Some species and
+communities such as polar bears and alpine meadows may be left without
+any remaining viable habitat, putting much of our treasured wildlife at
+risk. Wildlife/Ecosystem at Risk  Increased temperatures are changing
+weather and vegetation patterns across the globe, forcing animal species
+to migrate to new, cooler areas in order to survive.  The rapid change
+of climate change is likely to exceed the ability of many species to
+migrate or adjust. Experts predict that one-fourth of Earth’s species
+will be headed for extinction by 2050 if the warming trend continues at
+its current rate. Many species are already feeling the heat: o In 1999,
+the death of the last Golden Toad in Central America marked the first
+documented species extinction driven by climate change. o Due to melting
+ice in the Arctic, polar bears may be gone from the planet in as little
+as 100 years. o In the tropics, rising the sea temperatures are causing
+more coral reefs to “bleach,” as the heat kills colourful algae that are
+necessary to coral health and survival. Ocean Acidification /Rising Seas
+level  As the Earth heats up, sea levels rise up because warmer water
+takes up more area than colder water, a process known as thermal
+expansion. Melting glaciers compound the problem by dumping even more
+fresh water into the oceans.  Rising seas threaten the populated
+low-lying areas, islands and dense coastal populations, erode
+shorelines, damage property and destroy ecosystems such as mangroves and
+wetlands that protect coasts against storms.  Sea levels have risen
+between four and eight inches in the past 100 years. Current projections
+suggest that sea levels could continue to rise between 4 inches and 36
+inches over the next 100 years.  The increased concentration of carbon
+dioxide (CO2) in the atmosphere has increased the absorption of CO2 in
+the ocean, which reduces the pH and makes the oceans more acidic.  A
+more acidic ocean would adversely affect the health of many marine
+species, including plankton, molluscs, and other shellfish. In
+particular, corals can be very sensitive to rising acidity, as it is
+difficult for them to create and maintain the skeletal structures needed
+for their support and protection. Increased Risk of Drought, Fire and
+Floods  Higher temperatures increase the amount of moisture that
+evaporates from land and water, leading to drought in many areas. Lands
+affected by drought are more vulnerable to flooding once rain falls.  As
+temperatures rise globally, droughts will become more frequent and more
+severe, with potentially devastating consequences for agriculture, water
+supply and human health. This phenomenon has already been observed in
+some parts of Asia and Africa, where droughts have become longer and
+more intense.  Hot temperatures and dry conditions also increase the
+likelihood of forest fires. Intensified Storms and Increased Storm
+Damages  Scientific research indicates that climate change will cause
+hurricanes and tropical storms to become more intense — lasting longer,
+unleashing stronger winds, and causing more damage to coastal ecosystems
+and communities.  Higher ocean temperatures is the main culprit, since
+hurricanes and tropical storms get their energy from warm water. As sea
+surface temperatures rise, developing storms will contain more energy. 
+At the same time, other factors such as rising sea levels, disappearing
+wetlands, and increased coastal development threaten to intensify the
+damage caused by hurricanes and tropical storms. Illness and Disease  As
+temperatures increases, so do the risks of heat-related illness and even
+death for the most vulnerable human populations. Scientists have linked
+the deadly heat waves to climate change and warn of more to come.  In
+2003, for example, extreme heat waves caused more than 20,000 deaths in
+Europe and more than 1,500 deaths in India.  Climate change increases
+the spread of infectious diseases, mainly because warmer temperatures
+allow disease-carrying insects, animals and microbes to survive in areas
+where they were once blocked by cold weather.  Diseases and pests that
+were once limited to the tropics — such as mosquitoes that carry malaria
+— may find hospitable conditions in new areas that were once too cold to
+support them.  The World Health Organization (WHO) estimates that
+climate change may have caused more than 150,000 deaths in the year 2000
+alone, with an increase in deaths likely in the future. Economic Losses 
+Research says that if no action is taken to curtail the global carbon
+emissions, climate change could cost between 5 and 20 percent of the
+annual global gross domestic product. In comparison, it would take 1
+percent of GDP to lessen the most damaging effects of climate change. 
+Climate change may significantly lower lake levels, altering shoreline
+habitats and costing millions for the relocation of ports and shore
+infrastructure.  Globally, more intense hurricanes and downpours could
+cause billions of dollars in damage to property and infrastructure. 
+Declining crop yields due to prolonged drought and high temperatures,
+especially in Africa, could put hundreds of thousands of people at risk
+for starvation.  High sea temperatures also threaten the survival of
+coral reefs, which generate an estimated $375 billion per year in goods
+and services. Agriculture Productivity/Food Security  Solar radiation,
+temperature, and precipitation are the essential drivers of crop growth;
+therefore agriculture has always been highly dependent on climate
+patterns and variations.  Since the industrial revolution, humans have
+been changing the global climate by emitting huge amounts of greenhouse
+gases into the atmosphere, resulting in higher global temperatures,
+affecting hydrological regimes and increasing climatic variability. 
+Climate change is projected to have significant impacts on agricultural
+conditions, food supply, and food security. Some of these effects are
+biophysical, some are ecological, and some are economic, including: o A
+shift in climate and agricultural zones towards the poles o Changes in
+production patterns due to higher temperatures o A boost in agricultural
+productivity due to increased carbon dioxide in the atmosphere o
+Changing precipitation patterns o Increased vulnerability of the
+landless and the poor International Efforts to Counter International
+Efforts to Counter International Efforts to Counter International
+Efforts to Counter Climate Change Climate Change Climate Change Climate
+Change The Intergovernmental Panel on Climate Change (IPCC)  IPCC was
+founded in November 1988 by the World Meteorological Organization (WMO)
+and the United Nations Environment Program (UNEP) jointly as a place to
+study global warming problems at a governmental level.  It is the
+mechanism that accumulates scientific knowledge on global warming while
+debates on the international countermeasures have been made in the COPs
+(Conference of the Parties) of United Nations Framework Convention on
+Climate Change (UNFCCC). These two mechanisms are complementing each
+other. United Nations Framework Convention on Climate Change (UNFCCC) 
+The UNFCCC entered into force on 21 March 1994. The 195 countries that
+have ratified the Convention are called Parties to the Convention
+(Almost universal Membership).  The UNFCCC is a “Rio Convention”, one of
+three adopted at the “Rio Earth Summit” in 1992. Others are the UN
+Convention on Biological Diversity and the Convention to Combat
+Desertification.  Due to intrinsic linkages, the Joint Liaison Group was
+set up to boost cooperation among the three Conventions, and synergies
+in their activities on issues of mutual concern. It now also
+incorporates the Ramsar Convention on Wetlands.  The ultimate objective
+of the Convention is to stabilize greenhouse gas concentrations “at a
+level that would prevent dangerous anthropogenic (human induced)
+interference with the climate system.” It states that “such a level
+should be achieved within a time-frame sufficient to allow ecosystems to
+adapt naturally to climate change, to ensure that food production is not
+threatened, and to enable economic development to proceed in a
+sustainable manner.”  Following its effectuation, the COP1 was held in
+Berlin, COP2 in Geneva, and the COP3 was held in Kyoto to adopt “Kyoto
+Protocol”, which implemented the objective of the UNFCCC to fight global
+warming by reducing greenhouse gas concentrations in the atmosphere to
+‘a level that would prevent dangerous anthropogenic interference with
+the climate system’ (Art. 2). Kyoto Protocol  The Kyoto Protocol commits
+its signatories by setting internationally binding emission reduction
+targets.  The Kyoto Protocol was adopted in Kyoto, Japan, on 11 December
+1997 and entered into force on 16 February 2005. The detailed rules for
+the implementation of the Protocol were adopted at COP 7 in Marrakesh,
+Morocco, in 2001, and are referred to as the “Marrakesh Accords.” Its
+first commitment period started in 2008 and ended in 2012.  Recognizing
+that developed countries are principally responsible for the current
+high levels of GHG emissions in the atmosphere as a result of more than
+150 years of industrial activity, the Protocol places a heavier burden
+on developed nations under the principle of “common but differentiated
+responsibilities.”  When no Protocol exists, the global CO2 emission in
+2010 will increase by 24% compared with 1990. When the Protocol is
+enforced in 2000, the global CO2 emission in 2010 will reduce by 5.2%
+compared with 1990.  Parties to the Kyoto protocol are classified as: o
+Annex I: Parties to the UNFCCC listed in Annex I of the Convention.
+These are the industrialized (developed) countries and “economies in
+transition” (EITs). EITs are the former centrally-planned (Soviet)
+economies of Russia and Eastern Europe. The European Union-15 (EU-15) is
+also an Annex I Party. o Annex II: Parties to the UNFCCC listed in Annex
+II of the Convention. Annex II Parties are made up of members of the
+Organization for Economic Cooperation and Development (OECD). Annex II
+Parties are required to provide financial and technical support to the
+EITs and developing countries to assist them in reducing their
+greenhouse gas emissions (climate change mitigation) and manage the
+impacts of climate change (climate change adaptation). o Annex B:
+Parties listed in Annex B of the Kyoto Protocol are Annex I Parties with
+first or second round Kyoto greenhouse gas emissions targets. o
+Non-Annex I: Parties to the UNFCCC not listed in Annex I of the
+Convention are mostly low-income developing countries. Developing
+countries may volunteer to become Annex I countries when they are
+sufficiently developed. o Least-developed countries (LDCs): 49 Parties
+are LDCs, and are given special status under the treaty in view of their
+limited capacity to adapt to the effects of climate change. 
+Industrialized countries (Annex I) have to report regularly on their
+climate change policies and measures, including issues governed by the
+Kyoto Protocol (for countries which have ratified it). They must also
+submit an annual inventory of their greenhouse gas emissions, including
+data for their base year (1990) and all the years since.  Developing
+countries (Non-Annex I Parties) report in more general terms on their
+actions both to address climate change and to adapt to its impacts - but
+less regularly than Annex I Parties do, and their reporting is
+contingent on their getting funding for the preparation of the reports,
+particularly in the case of the Least Developed Countries.  Kyoto
+Mechanisms are also known as Flexible Mechanisms and they include
+Emissions Trading, the Clean Development Mechanism and Joint
+Implementation to lower the cost of achieving emission targets. 
+Emission Trading: Emissions Trading‐mechanism allows parties to the
+Kyoto Protocol to buy ‘Kyoto units’ (emission permits for greenhouse
+gas) from other countries to help meet their domestic emission reduction
+targets.  Joint Implementation: Any Annex I country can invest in
+emission reduction projects (referred to as “Joint Implementation
+Projects”) in any other Annex I country as an alternative to reducing
+emissions domestically.  Clean Development Mechanism (CDM): Countries
+can meet their domestic emission reduction targets by buying greenhouse
+gas reduction units from (projects in) non Annex I countries to the
+Kyoto protocol.  Kyoto Units: The emissions trading can be international
+or domestic. Under the International Emissions Trading (IET), the
+countries can trade in the international carbon credit market to cover
+their shortfall in Assigned amount units. Countries with surplus units
+can sell them to countries that are exceeding their emission targets
+under Annex B of the Kyoto Protocol.  Certified Emission Reductions
+(CERs): Certified Emission Reductions are one of the types of the Kyoto
+Units. They are issued under the Clean Development Mechanism. The
+Annex‐I countries can use the CERs to comply with their emission
+limitation targets or by operators of installations covered by the
+European Union Emission Trading Scheme (EU ETS) in order to comply with
+their obligations to surrender EU Allowances, CERs or Emission Reduction
+Units (ERUs) for the CO2 emissions of their installations. The
+Government and Private entities can hold the CERs on electronic accounts
+with the UN.  In Doha, Qatar, on 8 December 2012, the “Doha Amendment to
+the Kyoto Protocol” was adopted. The amendment includes: o New
+commitments for Annex I Parties to the Kyoto Protocol who agreed to take
+on commitments in a second commitment period from 1 January 2013 to 31
+December 2020; o A revised list of greenhouse gases (GHG) to be reported
+on by Parties in the second commitment period; and o Amendments to
+several articles of the Kyoto Protocol which specifically referenced
+issues pertaining to the first commitment period and which needed to be
+updated for the second commitment period.  The Kyoto Protocol is seen as
+an important first step towards a truly global emission reduction regime
+that will stabilize GHG emissions, and can provide the architecture for
+the future international agreement on climate change.  In Durban (2011),
+the Ad Hoc Working Group on the Durban Platform for Enhanced Action
+(ADP) was established to develop a protocol, another legal instrument or
+an agreed outcome with legal force under the Convention, applicable to
+all Parties. The ADP is to complete its work as early as possible, but
+no later than 2015, in order to adopt this protocol, legal instrument or
+agreed outcome with legal force at the twenty-first session of the
+Conference of the Parties and for it to come into effect and be
+implemented from 2020. Conference of parties to the Kyoto Protocol
+Conferences Outcome/Breakthrough COP 16 16th session of the Conference
+of the Parties (COP 16) to the UNFCCC and the 6th session of the CMP 6
+to the Kyoto Protocol was held in in Cancun, Mexico in 2010. • Called
+for a large “Green Climate Fund”, and a “Climate Technology Centre” and
+network. • It looked forward to a second commitment period for the Kyoto
+Protocol. • The agreement recognizes that climate change represents an
+urgent and potentially irreversible threat to human societies and the
+planet, which needs to be urgently addressed by all parties. COP 17 17th
+session of the Conference of the Parties (COP 17) to the UNFCCC and the
+7th session of the CMP 7 to the Kyoto Protocol was held in Durban, South
+Africa in 2011. • The conference led to agreement on a management
+framework for a future Green Climate Fund. The fund is to distribute
+US$100bn per year to help poor countries adapt to climate impacts. • The
+design of the new Green Climate Fund for developing countries was
+completed through a decision on its governance and other practical
+arrangements. This opens the way for the Fund to become operational in
+2012. • The conference decided that the second commitment period will
+start on 1 January 2013 and run until 2017 or 2020. The end date and the
+emission targets for developed countries taking part will be fixed at
+the UN climate conference to be held at the end of 2012 in Qatar. • The
+EU confirmed it will participate in the second period of the Protocol
+beginning in 2013. COP 18 18th session of the Conference of the
+Parties(COP 18) to the UNFCCC and the 8th session of the CMP 8 to the
+Kyoto Protocol was held at the Qatar National Convention Centre in Doha
+in 2012 • Doha finalised details of the second Kyoto period and agreed a
+work plan for negotiations on the new global agreement and on raising
+ambition under the Durban Platform. • operationalised the Technology
+Mechanism established in Cancun by agreeing the governance arrangements
+for the Technology Executive Committee and a Climate Technology Centre
+and Network; • Launched a work programme to elaborate modalities and
+procedures for the new market mechanism established in Durban. COP 19
+19th session of the Conference of the Parties(COP 19) to the UNFCCC and
+the 9th session of the CMP 9 to the Kyoto Protocol was held in Warsaw,
+Poland in 2013 • The Warsaw conference agreed a time plan for countries
+to table their contributions to reducing or limiting greenhouse gas
+emissions under the new global climate agreement in 2015. • It also
+agreed ways to accelerate efforts to deepen emission cuts over the rest
+of this decade, and to set up a mechanism to address losses and damage
+caused by climate change in vulnerable developing countries. • The
+conference agreed decisions which enhance the implementation of a range
+of measures already agreed, including climate finance, REDD+, and
+transparency of reporting on emissions. COP 20 20th session of the
+Conference of the Parties (COP 20) to the UNFCCC and the 10th session of
+the CMP 10 to the Kyoto Protocol was held in Lima, Peru, in 2014 •
+Nations concluded by elaborating the elements of the new agreement,
+scheduled to be agreed in Paris in late 2015, while also agreeing the
+ground rules on how all countries can submit contributions to the new
+agreement during the first quarter of next year. • These Intended
+Nationally Determined Contributions (INDCs) will form the foundation for
+climate action post 2020 when the new agreement is set to come into
+effect. • Pledges were made by both developed and developing countries
+prior to and during the COP that took the capitalization of the new
+Green Climate Fund (GCF) past an initial $10 billion target. • Levels of
+transparency and confidence-building reached new heights as several
+industrialized countries submitted themselves to questioning about their
+emissions targets under a new process called a Multilateral Assessment.
+• The Lima Ministerial Declaration on Education and Awareness-raising
+calls on governments to put climate change into school curricula and
+climate awareness into national development plans. Reducing Emissions
+from Deforestation and Forest Degradation (REDD)  Reducing Emissions
+from Deforestation and Forest Degradation (REDD) is a set of steps
+designed to use market/financial incentives in order to reduce the
+emissions of greenhouse gases from deforestation and forest degradation.
+Its original objective is to reduce green house gases but it is claimed
+that it can deliver “co-benefits” such as biodiversity conservation and
+poverty alleviation.  “Reducing emissions from deforestation and forest
+degradation” implies a distinction between the two activities.
+Deforestation is the permanent removal of forests and withdrawal of land
+from forest use. Forest degradation refers to negative changes in the
+forest area that limit its production capacity.  REDD is sometimes
+presented as an “offset” scheme of the carbon markets and thus, would
+produce carbon credits.  Main Actors: REDD activities are undertaken by
+national or local governments, dominant NGOs, the private sector, or any
+combination of these. It is being pushed strongly by the World Bank and
+the UN for setting up the bases for the carbon market and the legal and
+governance frameworks of countries receiving REDD. Carbon offsets are
+“emissions-saving projects or programmes” that in theory would
+“compensate” for the polluters’ emissions. The “carbon credits”
+generated by these projects could then be used by industrialised
+governments and corporations to meet their targets and/or to be traded
+within the carbon markets. REDD ++  “REDD+” goes beyond deforestation
+and forest degradation, and includes the role of conservation,
+sustainable management of forests and enhancement of forest carbon
+stocks.  It is predicted that financial flows for greenhouse gas
+emission reductions from REDD+ could reach up to US$30 billion a year.
+This significant North-South flow of funds could reward a meaningful
+reduction of carbon emissions and could also support new, pro-poor
+development, help conserve biodiversity and secure vital ecosystem
+services.  Further, maintaining forest ecosystems can contribute to
+increased resilience to climate change. To achieve these multiple
+benefits, REDD+ will require the full engagement and respect for the
+rights of Indigenous Peoples and other forest-dependent communities. US
+– China sign pact on emission reductions  China and the United States in
+November 2014 agreed on a timetable to limit emission of greenhouse
+gases.  In a joint announcement, the U.S. agreed to reduce by 2025 its
+emission of greenhouse gases by 26 per cent to 28 per cent below its
+2005 level.  China stated its intent to peak emissions of carbon dioxide
+in 2030, if not earlier. It also agreed to raise the share of non-fossil
+fuels to 20 per cent, in its primary energy mix, in the next 16 years.
+This would entail China shifting towards clean energy generated by
+nuclear, wind, solar and such zero-emitting resources.  The agreement on
+a timetable for emission cuts to combat climate change has brightened
+prospects for a climate deal in Paris next year.  The joint announcement
+could impose fresh pressure on India not to become a deal breaker in the
+run up to the Paris talks. India’s per capita emissions are estimated at
+one-tenth of the United States and one-fourth of China. HFCs as
+greenhouse gases  Hydroflurocarbons (HFCs) are intentionally made
+fluorinated greenhouse gases used as replacements for ozone-depleting
+substances. HFCs are used in the same applications where ozone-depleting
+substances have been used: refrigeration, air-conditioning equipment
+etc.  Since HFCs are not ozone-depleting, they have been kept out of the
+Montreal Protocol that currently deals with phasing out ozone depleting
+substances like hydro-chlorofluorocarbon (HCFC) and chlorofluorocarbons
+(CFC). HFCs, on the other hand, contribute to global warming and come
+under Kyoto Protocol.  In the recent United Nations Climate Change
+Conference that was held in Bonn, the UNEP expressed its view that the
+HFCs are a part of Short Lived Climate Pollutants (SLCPs) but have
+higher global warming potential when compared to carbon dioxide. Many of
+the western countries led by US are of the view that HFCs should be
+dealt under Montreal protocol and the use of HFCs should be reduced. 
+India, however, refused to be part of it. If HFC comes under the
+Montreal Protocol, it would be binding on emerging economies, including
+India, to go for phasing it out in an agreed time-bound legal framework.
+India has consistently maintained that the country will not phase out
+HFC unless there is availability of safe and economically-viable
+alternatives. India has demanded for technology transfer without patent
+restriction, financial assistance, and allowing developing countries,
+including India, more time for phasing down HFCs. India’ India’ India’
+India’s Effort Effort Effort Effort to Counter Climate Change to Counter
+Climate Change to Counter Climate Change to Counter Climate Change 
+India is the world’s third largest economy and fifth largest greenhouse
+gas (GHG) emitter, accounting for about 5% of global emissions. India’s
+emissions increased 65% between 1990 and 2005 and are projected to grow
+another 70% by 2020.  By other measures, India’s emissions are low
+compared to those of other major economies. India accounts for only 2%
+of cumulative energy-related emissions since 1850. On a per capita
+basis, India’s emissions are 70% below the world average and 93% below
+those of the United States.  India is also at the frontlines of facing
+the impacts of climate change. Shifting rainfall patterns, recurring
+floods, stronger cyclones and droughts or soil erosion are exacerbating
+the challenge of poverty eradication and necessitate the allocation of
+scarce national resources for preventing loss of human life.  Despite
+resource constraints, India is undertaking ambitious actions to
+undertake adaptation and mitigation actions, including thorough lowering
+of the energy intensity of our economic growth, increasing energy
+efficiency across sectors and making greater use of renewable.  India
+has doubled the Clean Energy Cess on coal, which very few countries
+have, and the Clean Energy Fund already has over 3 billion US dollars to
+be used for promoting clean technologies  India’s National Solar Mission
+is being scaled up five-fold from 20,000 megawatts to 100,000 megawatts.
+This will mean an additional investment of 100 billion dollars and
+savings of about 165 million tonnes of CO2 emissions per year.  India is
+releasing 6 billion US dollars in one go for intensive afforestation
+which will result in more carbon sinks.  India has allocated about 200
+million US dollars for the ‘National Adaptation Fund’, setting-up of
+Ultra Mega Solar Projects, Ultra-Modern Super Critical Coal Based
+Thermal Power Technology, and the development of Solar Parks on canals. 
+Another initiative is “100 Smart Cities’ with integrated policies for
+adaptation and mitigation to reduce the vulnerability and exposure of
+urban areas to climate change and also to improve their energy
+efficiency for which 1.2 billion US dollars have been allocated.  India
+has put in place stringent norms for cement industry. Our Action Plan
+for cleaning one of the longest rivers in the world, River Ganga will
+bring multiple benefits of pollution reduction and climate adaptation.
+We have also taken initiatives for protecting coastal, Himalayan, and
+forest areas.  India has initiated preparations to develop a National
+Air Quality Index and have launched a National Air Quality Scheme. 
+Setting-up of Ultra Mega Solar Projects in Tamil Nadu, Rajasthan,
+Gujarat, Andhra Pradesh and Ladakh to promote renewable energy. National
+action plan on climate change (NAPCC) Government of India has launched
+eight Missions as part of the National Action Plan on Climate Change
+(NAPCC) in specific areas which include assessment of the impact of
+climate change and actions needed to address climate change. 1. National
+Solar Mission:  The NAPCC aims to promote the development and use of
+solar energy for power generation and other uses with the ultimate
+objective of making solar competitive with fossil-based energy options. 
+The plan includes: specific goals for increasing use of solar thermal
+technologies in urban areas, industry, and commercial establishments; a
+goal of increasing production of photovoltaic to 1000 MW/year; and a
+goal of deploying at least 1000 MW of solar thermal power generation. 
+Other objectives include the establishment of a solar research centre,
+increased international collaboration on technology development,
+strengthening of domestic manufacturing capacity, and increased
+government funding and international support. 2. National Mission for
+Enhanced Energy Efficiency:  Initiatives based on increasing the energy
+use efficiency were expected to yield savings of 10,000 MW by 2012. 
+Building on the Energy Conservation Act 2001, the plan recommends: o
+Mandating specific energy consumption decreases in large
+energy-consuming industries, with a system for companies to trade
+energy-savings certificates; o Energy incentives, including reduced
+taxes on energy-efficient appliances; and o Financing for public-private
+partnerships to reduce energy consumption through demand-side management
+programs in the municipal, buildings and agricultural sectors. 3.
+National Mission on Sustainable Habitat:  To promote energy efficiency
+as a core component of urban planning, the plan calls for: o Extending
+the existing Energy Conservation Building Code; o A greater emphasis on
+urban waste management and recycling, including power production from
+waste; o Strengthening the enforcement of automotive fuel economy
+standards and using pricing measures to encourage the purchase of
+efficient vehicles; and o Incentives for the use of public
+transportation. 4. National Water Mission  With water scarcity projected
+to worsen as a result of climate change, the plan sets a goal of a 20%
+improvement in water use efficiency through pricing and other measures.
+5. National Mission for Sustaining the Himalayan Ecosystem  The plan
+aims to conserve biodiversity, forest cover, and other ecological values
+in the Himalayan region, where glaciers that are a major source of
+India’s water supply are projected to recede as a result of global
+warming. 6. National Mission for a”Green India”  Goals include the
+afforestation of 6 million hectares of degraded forest lands and
+expanding forest cover from 23% to 33% of India’s territory. 7. National
+Mission for Sustainable Agriculture  The plan aims to support climate
+adaptation in agriculture through the development of climate-resilient
+crops, expansion of weather insurance mechanisms, and agricultural
+practices. 8. National Mission on Strategic Knowledge for Climate Change
+To gain a better understanding of climate science, impacts and
+challenges, the plan envisions a new Climate Science Research Fund,
+improved climate modelling, and increased international collaboration. 
+It also encourages private sector initiatives to develop adaptation and
+mitigation technologies through venture capital funds. National Action
+Programme to Combat Desertification  India is a party to the UN
+Convention to Combat Desertification (UNCCD) and MoEF is the National
+Coordinating Agency for the implementation of the UNCCD in the country. 
+As an affected party, a 20 year comprehensive National Action Programme
+(NAP) to combat desertification in the country has been prepared. The
+objectives are:- o community based approach to development, o activities
+to improve the quality of life of the local communities, o awareness
+raising, o drought management preparedness and mitigation, o R&D
+initiatives and interventions which are locally suited, o strengthening
+self-governance leading to empowerment of local communities  It is
+proposed to initiate activities that include, among others, assessment
+and mapping of land degradation, drought monitoring and early warning
+system groups, drought preparedness contingency plans, and on-farm
+research activities for development of indigenous technology etc. will
+be taken up. India’s Stand on climate change negotiations  Clean air,
+clean energy and clean power balanced with growth were the priorities
+for India in its mission to combat climate change. The government had
+pursued voluntarily set targets with commitment, conviction and
+followed-up action and had played an active and positive role in
+tackling the Climate Change.  India’s stand is based on its domestic
+obligations of addressing the basic development needs of poverty
+eradication, food security and nutrition, universal access to education
+and health, gender equality and women empowerment, water and sanitation,
+clean energy, employment, sustainable cities and human settlement and
+its commitment to fight climate change.  India is of the view that
+historical emissions of developed countries as laid down in the
+Conventions should be the basis for differentiation. The developing
+countries’ need for inclusive growth, sustainable development, poverty
+eradication, and energy access to all must be recognized as fundamental
+to the approach to differentiation.  India is of the view that
+Announcement of contributions for Green Climate Fund (GCF) and its
+actual deposit should be ensured by developed countries. GCF could be
+used to purchase Intellectual Property Rights (IPRs) of climate friendly
+technologies. The non-capitalization of the Green Climate Fund was a
+matter of concern and could affect the 2015 Climate agreement.  India
+grows into a regional power, which can only be accomplished if India is
+given sufficient development space to grow its economy and eliminate
+poverty. It is in India’s interest to diversify its energy portfolio — a
+prospect that can be strengthened with the U.S.’s assistance. The way to
+achieve these objectives is to forge an “India exception” at the global
+climate talks in Paris; doing so is the only realistic pathway to a
+global climate deal and will cement the growing ties between the two
+critical actors in an evolving international order. The Way Forward 
+Wealthy nations like the U.S., and those of the EU argued that emissions
+from developing countries are consistently rising and they need to
+commit to more serious emission cuts. A consensus needs to be developed
+at the earliest.  The immediate up scaling of ambition in the second
+Commitment period of Kyoto Protocol and its early ratification by all
+Kyoto Protocol parties would be a step in the right direction. 
+Concerning mitigation, distinction enshrined in the Convention between
+Annex I (Developed) and non- Annex I (developing) Parties must be
+maintained in accordance with the principles of Equity, CBDR and other
+provisions of the UN Conventions.  The ‘developing versus developed
+country’ schism needs to be diluted at the earliest and Developed
+Countries should avoid watering down the CBDR principle envisaged in
+earlier agreements. transmitted in any form or by any means, electronic,
+mechanical, photocopying, recording or otherwise, without prior
+permission of Vision IAS.
