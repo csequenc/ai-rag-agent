@@ -1,16 +1,20 @@
+import os
+from dotenv import load_dotenv
+
 from chunker import Chunker
 from retriever import Retriever
 from reranker import Reranker
 from generator import Generator
 from utils import load_documents
 
-
 # Configuration
 CHUNK_SIZE = 100
 OVERLAP = 20
 TOP_K = 5
 THRESHOLD = 0.30
-API_KEY = "YOUR_GROQ_API_KEY"
+
+load_dotenv()
+API_KEY = os.getenv("GROQ_API_KEY")
 
 
 # Initialize Components
