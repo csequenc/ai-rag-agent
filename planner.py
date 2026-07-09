@@ -37,27 +37,27 @@ User: {query}
         return response.choices[0].message.content
 
     def respond(self, query, observation):
-
+    
         prompt = f"""
-User asked:
-
-{query}
-
-The tool returned:
-
-{observation}
-
-Write the final answer for the user.
-"""
-
-    response = self.client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
-    )
-
-    return response.choices[0].message.content
+    User asked:
+    
+    {query}
+    
+    The tool returned:
+    
+    {observation}
+    
+    Write the final answer for the user.
+    """
+    
+        response = self.client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
+    
+        return response.choices[0].message.content
