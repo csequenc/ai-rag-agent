@@ -1,15 +1,24 @@
+from planner import Planner
 from tools import calculate
 
 
 class Agent:
 
+    def __init__(self, api_key):
+        self.planner = Planner(api_key)
+
     def run(self, query):
 
-        if "calculate" in query.lower():
-            expression = query.lower().replace("calculate", "").strip()
+        decision = self.planner.decide(query)
 
-            result = calculate(expression)
+        print("Planner Decision:")
+        print(decision)
 
+        lines = decision.splitlines()
+        tool = lines[0].split(":")[1].strip()
+        tool_input = lines[1].split(":")[1].strip()
+        if tool == "calculate":
+            result = calculate(tool_input)
             return result
-
-        return "I don't know how to handle that."
+        else:
+            return "No tool used."
