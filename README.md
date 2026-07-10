@@ -1,113 +1,262 @@
-# RAG App — Document Question Answering with Retrieval, Reranking, and Groq
+# Modular AI Agent with RAG and Dynamic Tool Calling
 
-A modular Retrieval-Augmented Generation (RAG) application that answers
-questions grounded in your own documents. Built to understand each
-piece of a production RAG pipeline from first principles, not by
-wrapping a framework.
+A modular AI agent built from first principles that combines Retrieval-Augmented Generation (RAG) with LLM-based tool calling.
 
-## What it does
+The project demonstrates how modern AI agents work internally by implementing document retrieval, reranking, tool selection, dynamic tool execution, and grounded response generation without relying on agent frameworks.
 
-- Ingests all `.txt` documents in a `data/` folder
-- Splits them into overlapping chunks
-- Embeds chunks with a sentence-transformer model
-- Retrieves the most relevant chunks for a query using FAISS
-- Reranks retrieved chunks with a cross-encoder for better ordering
-- Rejects low-confidence retrievals instead of hallucinating
-  ("I don't know based on the provided documents.")
-- Generates a grounded answer using an LLM (Groq)
+---
+
+## Features
+
+- Document chunking with overlap
+- Semantic retrieval using Sentence Transformers
+- FAISS vector search
+- Cross-encoder reranking
+- Grounded response generation using Groq
+- LLM-based planner
+- Structured JSON tool calling
+- Dynamic tool registry
+- Calculator tool
+- RAG search tool
+- Modular and extensible architecture
+
+---
 
 ## Architecture
 
 ```
-Documents (data/)
-      │
-      ▼
-  Chunker          — splits text into overlapping chunks
-      │
-      ▼
-  Retriever        — embeds chunks, builds a FAISS index, searches
-      │
-      ▼
-  Reranker         — cross-encoder reorders retrieved candidates
-      │
-      ▼
-  Generator        — builds the prompt, calls the LLM, returns the answer
+                           User Query
+                                │
+                                ▼
+                         LLM Planner
+                                │
+                 JSON Tool Decision
+                                │
+             ┌──────────────────┴──────────────────┐
+             │                                     │
+             ▼                                     ▼
+      Calculator Tool                      RAG Search Tool
+                                                   │
+                                                   ▼
+                                      Sentence Transformer
+                                                   │
+                                                   ▼
+                                               FAISS Search
+                                                   │
+                                                   ▼
+                                            Cross Encoder
+                                                   │
+                                                   ▼
+                                          Retrieved Context
+             └──────────────────┬──────────────────┘
+                                ▼
+                      Grounded Response Generation
+                                │
+                                ▼
+                           Final Response
 ```
 
-Each component has a single responsibility and no knowledge of the
-others' internals — swapping the LLM provider, embedding model, or
-reranker only requires changing one file.
+---
 
-## Why these design choices
+## Components
 
-- **Chunking with overlap**: prevents ideas from being cut in half at
-  chunk boundaries.
-- **FAISS `IndexFlatIP` on normalized vectors**: exact cosine similarity
-  search, chosen for simplicity and because dataset size doesn't yet
-  require approximate search.
-- **Similarity threshold before generation**: if the best retrieved
-  chunk scores below the threshold, the app refuses to answer rather
-  than letting the LLM guess from irrelevant context.
-- **Reranking**: FAISS retrieves candidates fast but only compares
-  embeddings computed independently; a cross-encoder reads the query
-  and chunk together and reorders the top candidates more accurately.
+### Planner
 
-## Setup
+Uses an LLM to determine which tool should be executed.
+
+Example output:
+
+```json
+{
+    "tool": "calculate",
+    "input": "20*5"
+}
+```
+
+or
+
+```json
+{
+    "tool": "rag_search",
+    "input": "What is climate change?"
+}
+```
+
+---
+
+### Tool Registry
+
+Tools are executed dynamically using a registry.
+
+```python
+self.tools = {
+    "calculate": calculate,
+    "rag_search": rag_search
+}
+```
+
+This makes adding future tools straightforward without modifying the execution logic.
+
+---
+
+### Chunker
+
+Splits documents into overlapping chunks to preserve context across chunk boundaries.
+
+---
+
+### Retriever
+
+- SentenceTransformer embeddings
+- FAISS IndexFlatIP
+- Cosine similarity search
+
+---
+
+### Reranker
+
+Uses a Cross Encoder to improve retrieval quality by reranking the retrieved chunks.
+
+---
+
+### Generator
+
+Creates a grounded prompt using the retrieved context and generates the final answer using Groq.
+
+---
+
+## Technologies Used
+
+- Python
+- FAISS
+- Sentence Transformers
+- Hugging Face Transformers
+- Cross Encoder Reranking
+- Groq API
+- python-dotenv
+
+---
+
+## Project Structure
+
+```
+rag-engine/
+│
+├── main.py
+├── planner.py
+├── agent.py
+├── tools.py
+├── rag.py
+├── chunker.py
+├── retriever.py
+├── reranker.py
+├── generator.py
+├── utils.py
+├── data/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Running the Project
+
+### Clone the repository
+
+```bash
+git clone <repository-url>
+cd rag-engine
+```
+
+### Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### Activate
+
+Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Set your Groq API key as an environment variable rather than hardcoding it:
+### Configure environment
+
+Create a `.env` file.
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+### Run
 
 ```bash
-export GROQ_API_KEY="your_key_here"
+python main.py
 ```
 
-Add your own `.txt` documents to the `data/` folder.
+---
 
-## Usage
+## Example
 
-```bash
-python app.py
+```
+You: calculate 20*5
+
+Planner Decision:
+{
+    "tool": "calculate",
+    "input": "20*5"
+}
+
+Agent:
+The answer is 100.
 ```
 
 ```
-Ask a question (or type 'exit' to quit): What does FAISS do?
+You: Why is climate change dangerous?
 
-Retrieved Chunks:
-----------------------------------------
-Rank   : 1
-Score  : 0.81
-Rerank : 8.92
-Source : ai_notes.txt
-Text   : FAISS performs fast nearest neighbour search...
+Planner Decision:
+{
+    "tool": "rag_search",
+    "input": "Why is climate change dangerous?"
+}
 
-Answer:
-FAISS is a library for efficient similarity search over vectors...
+Agent:
+Climate change increases sea levels, intensifies storms,
+causes extreme weather events, and threatens ecosystems
+and human societies.
 ```
 
-## Project structure
+---
 
-```
-rag-app/
-├── app.py          # orchestrates the pipeline
-├── chunker.py       # splits documents into overlapping chunks
-├── retriever.py     # embeddings + FAISS index + search
-├── reranker.py      # cross-encoder reranking
-├── generator.py      # prompt construction + LLM call
-├── utils.py         # document loading
-├── data/            # your source documents (.txt)
-└── requirements.txt
-```
+## Future Improvements
 
-## Known limitations
+- Persist FAISS index to disk
+- Semantic chunking
+- Conversation memory
+- External API tools
+- ReAct-style planning loop
+- LangChain / LangGraph implementation
 
-- The FAISS index and embeddings are rebuilt on every run rather than
-  persisted to disk — acceptable at this dataset size, but the next
-  improvement would be caching the index and rebuilding only when
-  documents change.
-- Chunking splits on a fixed character count rather than
-  paragraph/sentence boundaries, so a chunk can occasionally start or
-  end mid-sentence.
-- Currently supports `.txt` files only.
+---
+
+## Learning Outcomes
+
+This project was implemented from scratch to understand the core ideas behind modern AI systems before using higher-level frameworks.
+
+Key concepts implemented:
+
+- Retrieval-Augmented Generation (RAG)
+- FAISS vector indexing
+- Cross-encoder reranking
+- LLM planning
+- JSON tool calling
+- Dynamic tool dispatch
+- Grounded response generation
