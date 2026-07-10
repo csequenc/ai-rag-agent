@@ -1,6 +1,7 @@
 from rag import retriever, reranker
 THRESHOLD = 0.30
 
+
 def calculate(expression):
     try:
         result = eval(expression)
