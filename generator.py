@@ -1,6 +1,7 @@
 from groq import Groq
 
 
+
 class Generator:
 
     def __init__(self, api_key, model_name="llama-3.3-70b-versatile"):
