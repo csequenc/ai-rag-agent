@@ -5,6 +5,7 @@ class Planner:
 
     def __init__(self, api_key):
         self.client = Groq(api_key=api_key)
+        
 
     def decide(self, query):
 
