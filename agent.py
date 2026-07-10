@@ -3,6 +3,7 @@ from tools import calculate, rag_search
 import json
 
 
+
 class Agent:
 
     def __init__(self, api_key):
