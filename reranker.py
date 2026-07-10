@@ -1,6 +1,5 @@
 from sentence_transformers import CrossEncoder
 
-
 class Reranker:
 
     def __init__(self, model_name="BAAI/bge-reranker-base"):
