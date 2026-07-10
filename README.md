@@ -1,157 +1,151 @@
-# Modular AI Agent with RAG and Dynamic Tool Calling
+# AI RAG Agent: From First Principles to LangChain
 
-A modular AI agent built from first principles that combines Retrieval-Augmented Generation (RAG) with LLM-based tool calling.
+A production-style AI agent built in two stages:
 
-The project demonstrates how modern AI agents work internally by implementing document retrieval, reranking, tool selection, dynamic tool execution, and grounded response generation without relying on agent frameworks.
+- **Manual Implementation** – Build an AI agent from first principles to understand how planners, tool dispatch, and Retrieval-Augmented Generation (RAG) work internally.
+- **Framework Implementation** – Refactor the same agent using modern LangChain (`create_agent`) while reusing the same RAG pipeline and tools.
+
+This project demonstrates the evolution from implementing an AI agent manually to leveraging a modern framework without sacrificing understanding of the underlying concepts.
 
 ---
 
-## Features
+# Features
+
+## Manual Implementation
+
+- Custom LLM planner
+- Structured JSON tool selection
+- Dynamic tool registry
+- Manual tool dispatch
+- Calculator tool
+- Retrieval-Augmented Generation (RAG)
+
+## Framework Implementation
+
+- LangChain `@tool`
+- LangChain `create_agent`
+- Automatic tool selection
+- Automatic tool execution
+- Weather API tool
+- Reusable RAG tool
+
+## RAG Pipeline
 
 - Document chunking with overlap
-- Semantic retrieval using Sentence Transformers
+- Sentence Transformer embeddings
 - FAISS vector search
-- Cross-encoder reranking
-- Grounded response generation using Groq
-- LLM-based planner
-- Structured JSON tool calling
-- Dynamic tool registry
-- Calculator tool
-- RAG search tool
-- Modular and extensible architecture
+- Cross-Encoder reranking
+- Grounded answer generation using Groq
 
 ---
 
-## Architecture
+# Repository Branches
+
+## `manual-implementation`
+
+Implements every component manually.
 
 ```
-                           User Query
-                                │
-                                ▼
-                         LLM Planner
-                                │
-                 JSON Tool Decision
-                                │
-             ┌──────────────────┴──────────────────┐
-             │                                     │
-             ▼                                     ▼
-      Calculator Tool                      RAG Search Tool
-                                                   │
-                                                   ▼
-                                      Sentence Transformer
-                                                   │
-                                                   ▼
-                                               FAISS Search
-                                                   │
-                                                   ▼
-                                            Cross Encoder
-                                                   │
-                                                   ▼
-                                          Retrieved Context
-             └──────────────────┬──────────────────┘
-                                ▼
-                      Grounded Response Generation
-                                │
-                                ▼
-                           Final Response
+User
+    ↓
+Planner Prompt
+    ↓
+JSON Output
+    ↓
+Tool Registry
+    ↓
+Tool Dispatch
+    ↓
+Tool Execution
+    ↓
+Response
 ```
 
 ---
 
-## Components
+## `main`
 
-### Planner
+Refactors the project using LangChain.
 
-Uses an LLM to determine which tool should be executed.
-
-Example output:
-
-```json
-{
-    "tool": "calculate",
-    "input": "20*5"
-}
+```
+User
+    ↓
+create_agent()
+    ↓
+Automatic Tool Calling
+    ↓
+Tool Execution
+    ↓
+Final Response
 ```
 
-or
+This demonstrates how modern frameworks abstract the same workflow implemented manually.
 
-```json
-{
-    "tool": "rag_search",
-    "input": "What is climate change?"
-}
+---
+
+# Architecture (Framework Version)
+
+```
+                    User Query
+                         │
+                         ▼
+                 LangChain Agent
+                         │
+         ┌───────────────┼───────────────┐
+         │               │               │
+         ▼               ▼               ▼
+   Calculator Tool   RAG Search    Weather Tool
+                         │
+                         ▼
+                Sentence Transformers
+                         │
+                         ▼
+                     FAISS Search
+                         │
+                         ▼
+                 Cross Encoder Reranker
+                         │
+                         ▼
+                  Retrieved Context
+                         │
+                         ▼
+                 Groq Response Generation
+                         │
+                         ▼
+                    Final Response
 ```
 
 ---
 
-### Tool Registry
-
-Tools are executed dynamically using a registry.
-
-```python
-self.tools = {
-    "calculate": calculate,
-    "rag_search": rag_search
-}
-```
-
-This makes adding future tools straightforward without modifying the execution logic.
-
----
-
-### Chunker
-
-Splits documents into overlapping chunks to preserve context across chunk boundaries.
-
----
-
-### Retriever
-
-- SentenceTransformer embeddings
-- FAISS IndexFlatIP
-- Cosine similarity search
-
----
-
-### Reranker
-
-Uses a Cross Encoder to improve retrieval quality by reranking the retrieved chunks.
-
----
-
-### Generator
-
-Creates a grounded prompt using the retrieved context and generates the final answer using Groq.
-
----
-
-## Technologies Used
+# Technologies
 
 - Python
+- LangChain
+- Groq
 - FAISS
 - Sentence Transformers
-- Hugging Face Transformers
-- Cross Encoder Reranking
-- Groq API
+- HuggingFace Transformers
+- Cross Encoder
+- Requests
 - python-dotenv
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```
-rag-engine/
+ai-rag-agent/
 │
-├── main.py
-├── planner.py
-├── agent.py
-├── tools.py
-├── rag.py
+├── framework_agent.py
+├── framework_tools.py
+├── framework_rag.py
+│
 ├── chunker.py
 ├── retriever.py
 ├── reranker.py
 ├── generator.py
 ├── utils.py
+│
 ├── data/
 ├── requirements.txt
 └── README.md
@@ -159,22 +153,22 @@ rag-engine/
 
 ---
 
-## Running the Project
+# Installation
 
-### Clone the repository
+Clone the repository
 
 ```bash
 git clone <repository-url>
-cd rag-engine
+cd ai-rag-agent
 ```
 
-### Create a virtual environment
+Create a virtual environment
 
 ```bash
 python -m venv .venv
 ```
 
-### Activate
+Activate
 
 Windows
 
@@ -182,81 +176,80 @@ Windows
 .venv\Scripts\activate
 ```
 
-### Install dependencies
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Configure environment
+---
+
+# Environment Variables
 
 Create a `.env` file.
 
-```
-GROQ_API_KEY=your_api_key_here
+```env
+GROQ_API_KEY=your_groq_api_key
+OPENWEATHER_API_KEY=your_openweather_api_key
 ```
 
-### Run
+---
+
+# Run
 
 ```bash
-python main.py
+python framework_agent.py
 ```
 
 ---
 
-## Example
+# Example Queries
 
 ```
-You: calculate 20*5
-
-Planner Decision:
-{
-    "tool": "calculate",
-    "input": "20*5"
-}
-
-Agent:
-The answer is 100.
+25 * 17
 ```
 
 ```
-You: Why is climate change dangerous?
+What is climate change?
+```
 
-Planner Decision:
-{
-    "tool": "rag_search",
-    "input": "Why is climate change dangerous?"
-}
+```
+What is the weather in Delhi?
+```
 
-Agent:
-Climate change increases sea levels, intensifies storms,
-causes extreme weather events, and threatens ecosystems
-and human societies.
+```
+Summarize the causes of global warming.
 ```
 
 ---
 
-## Future Improvements
+# Learning Outcomes
 
-- Persist FAISS index to disk
-- Semantic chunking
-- Conversation memory
-- External API tools
-- ReAct-style planning loop
-- LangChain / LangGraph implementation
+This project was intentionally built in two stages to understand both the implementation details and the framework abstractions behind modern AI agents.
 
----
-
-## Learning Outcomes
-
-This project was implemented from scratch to understand the core ideas behind modern AI systems before using higher-level frameworks.
-
-Key concepts implemented:
+Concepts covered:
 
 - Retrieval-Augmented Generation (RAG)
-- FAISS vector indexing
-- Cross-encoder reranking
-- LLM planning
-- JSON tool calling
-- Dynamic tool dispatch
-- Grounded response generation
+- Semantic Search
+- Vector Embeddings
+- FAISS Indexing
+- Cross-Encoder Reranking
+- Tool Calling
+- Dynamic Tool Registry
+- Planner Design
+- LangChain Tools
+- LangChain `create_agent`
+- External API Integration
+- Modular AI Agent Design
+
+---
+
+# Future Improvements
+
+- Persistent FAISS index
+- Streaming responses
+- Conversation memory
+- Multi-tool reasoning
+- LangGraph workflows
+- MCP integration
+- Multi-agent architecture
