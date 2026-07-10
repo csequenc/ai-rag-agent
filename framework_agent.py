@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_groq import ChatGroq
 
-from framework_tools import calculate, rag_search, get_weather
+from framework_tools import calculate, rag_search, weather
 
 
 load_dotenv()
@@ -17,7 +17,7 @@ llm = ChatGroq(
 tools = [
     calculate,
     rag_search,
-    get_weather
+    weather
 ]
 
 

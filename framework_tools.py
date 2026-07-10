@@ -20,7 +20,7 @@ def calculate(expression: str) -> str:
 
 
 @tool
-def get_weather(city: str) -> str:
+def weather(city: str) -> str:
     """
     Get the current weather for a city.
     """
@@ -46,7 +46,14 @@ def get_weather(city: str) -> str:
     temperature = data["main"]["temp"]
     condition = data["weather"][0]["description"]
 
-    return f"{city}: {temperature}°C, {condition}"
+    return f"""
+            Current weather in {city}
+
+            Temperature: {temperature}°C
+            
+            Condition: {condition}
+            
+            """
 
 @tool
 def rag_search(question: str) -> str:
