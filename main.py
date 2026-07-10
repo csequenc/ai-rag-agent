@@ -6,6 +6,7 @@ load_dotenv()
 
 agent = Agent(os.getenv("GROQ_API_KEY"))
 
+
 while True:
     query = input("You: ")
 
