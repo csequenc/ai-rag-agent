@@ -1,9 +1,9 @@
 [
   {
-    "question": "Why is climate change getting worse in the 21st century?",
+    "question": "Why is climate change getting worse in the 20th century?",
     "expected_answer": "Climate change is worsening due to increased greenhouse gas emissions from industrialization, fossil fuel use, and deforestation.",
     "expected_source_documents": [
-      "02_climate_change.txt"
+      "02_climate_change_notes.txt"
     ],
     "notes": "Tests single-document retrieval and descriptive generation."
   },

@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Why is climate change getting worse in the 20th century?",
+        "answer": "Since the industrial revolution, humans have been changing the global climate by emitting huge amounts of greenhouse gases, and the Earth’s average temperature has increased by one degree during the 20th century.",
+        "retrieved_chunks": [
+            {
+                "text": "ince the industrial revolution, humans have\nbeen changing the global climate by emitting huge amount",
+                "source": "02_climate_change_notes.txt",
+                "score": 0.6551214456558228,
+                "rerank_score": 0.9506556391716003
+            },
+            {
+                "text": " climate change. \u0001 During the 20th century, the\nEarth’s average temperature has increased by one deg",
+                "source": "02_climate_change_notes.txt",
+                "score": 0.7171624898910522,
+                "rerank_score": 0.17429593205451965
+            },
+            {
+                "text": "factors affect the\nclimate change in a long term and persist for thousand to millions of\nyears. Cont",
+                "source": "02_climate_change_notes.txt",
+                "score": 0.6411215662956238,
+                "rerank_score": 0.03071989305317402
+            },
+            {
+                "text": " Country-wise share of\nGreenhouse gases The overall warming from 1850 to the end of the 20th\ncentury",
+                "source": "02_climate_change_notes.txt",
+                "score": 0.6404580473899841,
+                "rerank_score": 0.024366244673728943
+            },
+            {
+                "text": "ving a change in the climate since the\nbeginning of the 20th Century that cannot be attributed to an",
+                "source": "02_climate_change_notes.txt",
+                "score": 0.7696940898895264,
+                "rerank_score": 0.002622317522764206
+            }
+        ],
+        "retrieved_documents": [
+            "02_climate_change_notes.txt"
+        ],
+        "matched_documents": [
+            "02_climate_change_notes.txt"
+        ],
+        "missed_documents": [],
+        "unexpected_documents": [],
+        "judge": {
+            "correct": true,
+            "grounded": true,
+            "hallucination": false,
+            "completeness_score": 8,
+            "overall_score": 9,
+            "reason": "The generated answer accurately reflects the information provided in the retrieved context, specifically mentioning the industrial revolution and the increase in the Earth's average temperature during the 20th century."
+        }
+    },
+    {
+        "question": "What is Generative AI?",
+        "answer": "Generative AI creates new data, unlike traditional AI systems that mainly analyze existing data.",
+        "retrieved_chunks": [
+            {
+                "text": "rative AI\n\nGenerative AI is one of the fastest-growing areas of artificial intelligence. Unlike trad",
+                "source": "01_intro_to_ai.txt",
+                "score": 0.6444666385650635,
+                "rerank_score": 0.9996868371963501
+            },
+            {
+                "text": "neration\n\nGenerative AI is transforming creative industries by increasing productivity and helping u",
+                "source": "01_intro_to_ai.txt",
+                "score": 0.6422635316848755,
+                "rerank_score": 0.9904480576515198
+            },
+            {
+                "text": "nguage processing, computer vision, robotics, expert systems, and generative AI. These technologies ",
+                "source": "01_intro_to_ai.txt",
+                "score": 0.609248697757721,
+                "rerank_score": 0.12351448833942413
+            },
+            {
+                "text": "enables computers to understand, interpret, generate, and respond to human language. It combines AI,",
+                "source": "01_intro_to_ai.txt",
+                "score": 0.5989434719085693,
+                "rerank_score": 0.02581668458878994
+            },
+            {
+                "text": "ligence. Unlike traditional AI systems that mainly analyze existing data, generative AI creates new ",
+                "source": "01_intro_to_ai.txt",
+                "score": 0.7184740304946899,
+                "rerank_score": 0.018112996593117714
+            }
+        ],
+        "retrieved_documents": [
+            "01_intro_to_ai.txt"
+        ],
+        "matched_documents": [
+            "01_intro_to_ai.txt"
+        ],
+        "missed_documents": [],
+        "unexpected_documents": [],
+        "judge": {
+            "correct": true,
+            "grounded": true,
+            "hallucination": false,
+            "completeness_score": 6,
+            "overall_score": 8,
+            "reason": "The generated answer is correct and grounded in the context, but lacks detail and specificity compared to the expected answer."
+        }
+    }
+]

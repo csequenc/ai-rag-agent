@@ -1,7 +1,7 @@
 import json
 
 from rag import initialize_rag, run_rag
-from judge import judge_generation
+from .judge import judge_generation
 
 
 def load_gold_dataset():

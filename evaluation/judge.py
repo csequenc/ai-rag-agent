@@ -31,14 +31,18 @@ Evaluate the generated answer using ONLY:
 
 Do not use outside knowledge.
 
-Return ONLY valid JSON in the following format:
+Return ONLY a valid JSON object.
+
+Do not wrap it in markdown.
+Do not use ```json.
+Do not include any explanation before or after the JSON.
 
 {{
     "correct": true,
     "grounded": true,
     "hallucination": false,
-    "completeness_score": 0,
-    "overall_score": 0,
+    "completeness_score": 0-10,
+    "overall_score": 0-10,
     "reason": ""
 }}
 
@@ -75,6 +79,10 @@ def judge_generation(result, record):
     judge_output = response.choices[0].message.content
 
     try:
+        
+        print("\n========== Judge Output ==========")
+        print(judge_output)
+        print("=================================\n")
         judge_result = json.loads(judge_output)
 
     except json.JSONDecodeError:
