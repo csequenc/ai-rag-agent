@@ -5,7 +5,7 @@
     "expected_source_documents": [
       "02_climate_change_notes.txt"
     ],
-    "notes": "Tests single-document retrieval and descriptive generation."
+    "notes": "Tests single-document retrieval of climate change and descriptive generation."
   },
   {
     "question": "What is Generative AI?",
