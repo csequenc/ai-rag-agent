@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 from chunker import Chunker
 from retriever import Retriever
-from reranker import Reranker
+# from reranker import Reranker
 from generator import Generator
 from utils import load_documents
 
@@ -34,7 +34,7 @@ chunks = load_documents(
 retriever = Retriever()
 retriever.build_index(chunks)
 
-reranker = Reranker()
+# reranker = Reranker()
 
 generator = Generator(
     api_key=API_KEY

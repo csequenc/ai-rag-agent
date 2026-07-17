@@ -5,7 +5,8 @@ import requests
 from dotenv import load_dotenv
 from langchain.tools import tool
 from langchain.tools import tool
-from framework_rag import retriever,reranker
+from framework_rag import retriever
+# from framework_rag import reranker
 
 load_dotenv()
 
@@ -70,10 +71,10 @@ def rag_search(question: str) -> str:
         top_k=5
     )
 
-    results = reranker.rerank(
-        question,
-        results
-    )
+    # results = reranker.rerank(
+    #     question,
+    #     results
+    # )
 
     context = "\n\n".join(
     chunk["text"]
